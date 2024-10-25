@@ -1,0 +1,35 @@
+1.a)	/rosout 
+  b)	Is responsible for logging, subscribing and republishing the messages.
+  c)	/rosout , /rosout_agg
+  d)	/rosout 
+  e)	/rosout_agg 
+  f)	/rosout/set_logger_level , /rosout/get_loggers
+  g)	rosnode kill 
+        Observation: Rosmaster is running so we are not able to kill the node.S
+  h)	Rosnode info: print information about node
+            rosnode kill: kill a running node
+            rosnide list: list active nodes
+            rosnode machine: list nodes running on a particular machine or list machine
+            rosnode ping: test connectivity to node
+            rosnode cleanup: purge registration information of unreachable nodes
+
+
+4.a running nodes:
+	/CET
+	/M1RAA_24_26
+	/nimisha
+	/rosout
+4.b running topics:
+	/hello_class
+	/hello_college
+	/rosout
+	/rosout_agg
+	/welcome
+4.c Rosout node for subscribing,publishing and republishing the messages.
+4.d error displayed:
+	/home/nimi/ws1/src/pubsub/scripts/pno1.py:6: UserWarning: 'M1RAA 2024' is not a legal ROS base name. This may cause problems with other ROS tools.
+  	rospy.init_node("M1RAA 2024")
+	[FATAL] [1729831272.226978]: unable to register service [/M1RAA 2024/get_loggers] with master: ERROR: parameter [service] contains illegal chars
+	[FATAL] [1729831272.232276]: unable to register service [/M1RAA 2024/set_logger_level] with master: ERROR: parameter [service] contains illegal chars
+	[INFO] [1729831272.242419]: Hello,Nimisha Welcome!
+	[INFO] [1729831272.244608]: Hello CET!
